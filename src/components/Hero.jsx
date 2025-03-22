@@ -6,24 +6,18 @@ import Col from 'react-bootstrap/Col';
 
 import heroImage from '../../assets/helen-manente-hero.jpg';
 import helenLogo from '../../assets/helen-yoga.svg';
-//import {Link} from "react-router-dom";
 
 function Hero() {
-    return (
-      <>
-        <Container fluid className="hero-container">
-          <Row>
-            <Col>
-              
-                <img className='hero-image' src={heroImage} alt="Yoga pose" />
-                <img className='helen-logo' src={helenLogo} alt="Helen Logo" />
-              
-            </Col>
-          </Row>
-        </Container>
-      </>
-    );
-  }
-  
+  return (
+    <Container fluid className="hero-container">
+      <Row>
+        <Col>
+          <img className='hero-image' src={heroImage} alt="Yoga pose" />
+          <img className='helen-logo' src={helenLogo} alt="Helen Logo" />
+        </Col>
+      </Row>
+    </Container>
+  );
+}
 
-export default Hero
+export default Hero;

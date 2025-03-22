@@ -3,23 +3,18 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import 'bootstrap/dist/css/bootstrap.min.css';
-//import { useLocation } from 'react-router-dom';
 
 function App() {
-  //const location = useLocation();
   return (
     <Router basename="/helen-manente-yoga">
       <Navbar />
       <div className="container"><Hero /></div>
-      
-      
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
       </Routes>
     </Router>
-    
   );
 }
 
