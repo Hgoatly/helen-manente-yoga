@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   //const location = useLocation();
   return (
-    <Router>
+    <Router basename="/helen-manente-yoga">
       <Navbar />
       <div className="container"><Hero /></div>
       
