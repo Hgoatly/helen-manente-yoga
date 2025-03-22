@@ -4,8 +4,8 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-import heroImage from '../assets/helen-manente-hero.jpg';
-import helenLogo from '../assets/helen-yoga.svg';
+import heroImage from '../../assets/helen-manente-hero.jpg';
+import helenLogo from '../../assets/helen-yoga.svg';
 //import {Link} from "react-router-dom";
 
 function Hero() {
